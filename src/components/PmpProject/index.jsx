@@ -10,8 +10,7 @@ export const PmpProject = () => {
     <Project
       details={{ name: 'Projects Application', description: 'A single page application for management of operative projects', skills: ['React', 'React', 'Nodejs', 'MongoDB'] }}
       links={[
-        { provider: 'Github', url: 'https://github.com/edwinvillota' },
-        { provider: 'Vercel', url: 'https://vercel.com' }
+        { provider: 'Github', url: 'https://github.com/edwinvillota/pmp' }
       ]}
     >
       <Preview>

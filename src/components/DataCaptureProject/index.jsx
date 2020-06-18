@@ -11,8 +11,7 @@ export const DataCaptureProject = () => {
     <Project
       details={{ name: 'Data Capture App', description: 'An application to capture data of electric transformers.', skills: ['React-Native', 'Redux', 'SQLite'] }}
       links={[
-        { provider: 'Github', url: 'https://github.com/edwinvillota' },
-        { provider: 'Vercel', url: 'https://vercel.com' }
+        { provider: 'Github', url: 'https://github.com/edwinvillota/mecapp' }
       ]}
     >
       <Preview>

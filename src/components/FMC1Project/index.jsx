@@ -9,8 +9,8 @@ export const FMC1Project = () => {
     <Project
       details={{ name: 'Frontend Mentor Challenge 1', description: 'A simple frontend challenge from frontend mentor.', skills: ['CSS3', 'CSS Grids', 'Responsive Design'] }}
       links={[
-        { provider: 'Github', url: 'https://github.com/edwinvillota' },
-        { provider: 'Vercel', url: 'https://vercel.com' }
+        { provider: 'Github', url: 'https://github.com/edwinvillota/fm_challenge1' },
+        { provider: 'Vercel', url: 'https://fm-challenge1.vercel.app/' }
       ]}
     >
       <Preview>

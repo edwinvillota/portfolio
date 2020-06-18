@@ -9,8 +9,7 @@ export const GeaProject = () => {
     <Project
       details={{ name: 'GEA', description: 'A management platform to control operative processes.', skills: ['NodeJs', 'MySQL', 'React', 'Redux', 'API Rest', 'SSR'] }}
       links={[
-        { provider: 'Github', url: 'https://github.com/edwinvillota' },
-        { provider: 'Vercel', url: 'https://vercel.com' }
+        { provider: 'Github', url: 'https://github.com/edwinvillota/gea' }
       ]}
     >
       <Preview>

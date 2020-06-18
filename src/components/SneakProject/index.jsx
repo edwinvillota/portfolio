@@ -9,8 +9,8 @@ export const SneakProject = () => {
     <Project
       details={{ name: 'Sneak Landing Page', description: 'A landing page create for a technical test of frontend developer job.', skills: ['React', 'Vanilla Js', 'CSS Grids', 'Responsive Design'] }}
       links={[
-        { provider: 'Github', url: 'https://github.com/edwinvillota' },
-        { provider: 'Vercel', url: 'https://vercel.com' }
+        { provider: 'Github', url: 'https://github.com/edwinvillota/landing-page-2' },
+        { provider: 'Vercel', url: 'https://landing-page-2.now.sh/' }
       ]}
     >
       <Preview>
