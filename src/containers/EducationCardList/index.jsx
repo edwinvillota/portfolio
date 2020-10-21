@@ -2,6 +2,7 @@ import React from 'react'
 import { useEducation } from '../../hooks/useEducation'
 import { Container, Professional, Technology } from './styles'
 import { EducationCard } from '../../components/EducationCard'
+import { Fade } from '../../components/Fade'
 
 export const EducationCardList = () => {
   const [professional, technology] = useEducation()
@@ -9,19 +10,27 @@ export const EducationCardList = () => {
   return (
     <Container>
       <Professional>
-        Professional
+        <Fade >
+            Professional
+        </Fade>
       </Professional>
       {
         professional.map(e =>
-          <EducationCard key={e.title} {...e} />
+          <Fade key={e.title} direction='right'>
+            <EducationCard {...e} />
+          </Fade>
         )
       }
       <Technology>
-        Technology
+        <Fade>
+          Technology
+        </Fade>
       </Technology>
       {
         technology.map(e =>
-          <EducationCard key={e.title} {...e} />
+          <Fade key={e.title} direction='right'>
+            <EducationCard {...e} />
+          </Fade>
         )
       }
     </Container>

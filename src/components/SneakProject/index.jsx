@@ -1,6 +1,7 @@
 import React from 'react'
 import { Project } from '../Project'
 import { Preview, DesktopView, MobileView, Img } from './styles'
+import { Fade } from '../Fade'
 import Desktop from '../../../public/media/Sneak_Desktop.png'
 import Mobile from '../../../public/media/Sneak_mobile.png'
 
@@ -13,14 +14,16 @@ export const SneakProject = () => {
         { provider: 'Vercel', url: 'https://landing-page-2.now.sh/' }
       ]}
     >
-      <Preview>
-        <DesktopView>
-          <Img src={Desktop} alt='Desktop'/>
-        </DesktopView>
-        <MobileView>
-          <Img src={Mobile} alt='Mobile'/>
-        </MobileView>
-      </Preview>
+      <Fade direction='right'>
+        <Preview>
+          <DesktopView>
+            <Img src={Desktop} alt='Desktop'/>
+          </DesktopView>
+          <MobileView>
+            <Img src={Mobile} alt='Mobile'/>
+          </MobileView>
+        </Preview>
+      </Fade>
     </Project>
   )
 }

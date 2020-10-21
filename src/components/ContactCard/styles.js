@@ -4,6 +4,7 @@ export const Container = styled.a`
   display: flex;
   background-color: ${props => props.theme.pallete.white};
   padding: 2em 1em;
+  width: 100%;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, .2);
   @media screen and (min-width: 768px) {
     box-shadow: none;

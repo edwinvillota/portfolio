@@ -4,6 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
   background: ${props => props.theme.pallete.white};
   box-shadow: 2px 2px 3px rgba(0, 0, 0, .2);
   min-height: 170px;

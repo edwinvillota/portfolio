@@ -5,6 +5,7 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   padding: 0 2em;
+  overflow: visible;
   
   @media screen and (min-width: 768px) {
     margin: auto;

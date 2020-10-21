@@ -1,6 +1,7 @@
 import React from 'react'
 import { Project } from '../Project'
 import { Preview, Img } from './styles'
+import { Fade } from '../Fade'
 import Home from '../../../public/media/mecapp-2.png'
 import Resume from '../../../public/media/mecapp-3.png'
 import Node from '../../../public/media/mecapp-4.png'
@@ -14,12 +15,14 @@ export const DataCaptureProject = () => {
         { provider: 'Github', url: 'https://github.com/edwinvillota/mecapp' }
       ]}
     >
-      <Preview>
-        <Img src={Home} alt='Home'/>
-        <Img src={Resume} alt='Resume'/>
-        <Img src={Node} alt='Node'/>
-        <Img src={Form} alt='Form'/>
-      </Preview>
+      <Fade direction='right'>
+        <Preview>
+          <Img src={Home} alt='Home'/>
+          <Img src={Resume} alt='Resume'/>
+          <Img src={Node} alt='Node'/>
+          <Img src={Form} alt='Form'/>
+        </Preview>
+      </Fade>
     </Project>
   )
 }

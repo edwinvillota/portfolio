@@ -40,4 +40,8 @@ export const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     min-height: 100vh;
   }
+
+  section {
+    overflow-y: hidden;
+  }
 `

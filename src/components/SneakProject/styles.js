@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-
 export const Preview = styled.div`
   display: grid;
   grid-template-columns: 1fr;

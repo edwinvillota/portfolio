@@ -7,6 +7,7 @@ export const Section = styled.section`
   min-height: 100vh;
   padding: 0 2em;
   background-color: ${props => props.theme.pallete.gray1};
+  overflow: visible;
   @media screen and (min-width: 768px) {
     padding: 2em;
     background-color: ${props => props.theme.pallete.white};    

@@ -7,6 +7,7 @@ export const Section = styled.section`
   background-color: ${props => props.theme.pallete.gray1};
   min-height: 100vh;
   padding: 0 2em;
+  overflow: hidden;
   @media screen and (min-width: 768px) {
     margin: 0 auto;
     justify-content: center;
